@@ -1,0 +1,80 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F55A5A;
+  font-family: Inter;
+  color: #ffffff;
+  font-weight: 500;
+
+}
+
+.fa-earth-americas {
+  font-size: 24px;
+  margin-right: 18px;
+}
+
+img {
+  width: 220px;
+  height: 250px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.card--header {
+  display: flex;
+  align-items: center;
+}
+
+.card--header h4 {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  margin-right: 12px;
+  line-height: 10px;
+  /* margin-bottom: 0; */
+}
+
+.card--header a {
+  text-decoration-line: underline;
+  color: #918E9B;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin: 60px 10px 10px 60px;
+  width: 580px;
+}
+
+.card h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2B283A;
+  margin: 0;
+}
+
+.card h6 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  color: #2B283A;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  color: #2B283A;
+  margin: 0;
+}
+
+.fa-location-dot {
+  color: 	#F55A5A;
+  margin-right: 10px;
+}
